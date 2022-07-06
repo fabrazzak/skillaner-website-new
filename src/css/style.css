@@ -649,7 +649,7 @@ font-size: 50px;
   border-radius: 30px;
   padding:  5px 5px 5px 15px;
   font-weight: 700;
-  border: none;
+  border: 1px solid #0845AF;
   background:#fff;
 
 }
