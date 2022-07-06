@@ -773,10 +773,11 @@ font-size: 50px;
   p{
   font-size: 16px;
 }
+
 .login-button{
   width: 80px;
  
-  padding: 11px 20px ;
+  padding: 11px 2px ;
   margin-left: 14px;
  
 
@@ -785,19 +786,21 @@ font-size: 50px;
 .signUp-button{
   width: 80px;
   
-  padding: 11px 20px ;
+  padding: 10px 20px ;
   margin-left: 14px;
 
 
 }
 .nav-item{
-  margin-top: 55px;
+  margin-top:0px;
 }.navbar-nav {
     display: flex;
     flex-direction: row !important;
     padding-left: 0px;
-    margin-bottom: 055px;
+    margin-bottom: 0px;
     list-style: none;
+   justify-content: center; align-items: center;
+
 }
 .nav-item{
   margin-top: 55px;
@@ -833,7 +836,14 @@ font-size: 50px;
   margin-bottom: 33px;
 }
 
+.heru-section-info button{
+  width: 200px;
+  background-color: #0845AF;
+  border-radius: 59px;
+  border:none;
+  padding: 16px 0px;
 
+}
 /* popular section  */
 /* popular section  */
 /* popular section  */
