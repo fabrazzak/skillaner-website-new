@@ -179,7 +179,7 @@ header section
 .popular-head h2{
   font-family: Poppins;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 36px;
   color: #000;
 
@@ -228,6 +228,11 @@ header section
   font-family: Inter;
   line-height: 22px;
   letter-spacing: -2%;
+  color: #4F5B67;
+}
+.card-body-head-info i{
+
+  color: #717D8A !important;
 }
 .card-body-main {
   margin-top: 24px;
@@ -275,6 +280,9 @@ header section
 .experience-collum-one{
   padding-right: 72px;
 }
+.experience-collum-one{
+ color: #A6A6A6;
+}
 .experience-desc{
   font-size: 16px;
   font-family: Poppins;
@@ -310,6 +318,7 @@ header section
   font-size: 18px;
   line-height: 30px;
   font-family: Poppins;
+  color: #A6A6A6;
 }
 
 
@@ -472,6 +481,7 @@ header section
   font-family: Inter;
   font-weight: 400; 
   line-height: 30px;
+  color: #A6A6A6;
 }
 
 
@@ -634,6 +644,14 @@ font-size: 50px;
 
 .business-btn{
   color: #0845AF;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  padding:  5px 5px 5px 15px;
+  font-weight: 700;
+  border: none;
+  background:#fff;
+
 }
 
 
@@ -663,14 +681,28 @@ font-size: 50px;
   align-items: center;
   margin-right: 20px;
 }
+.emailid{
+  font-size: 16px;
+  font-weight: 500;
+}
+.email-icon{
+  margin-right: 13px;
+  color:#555555 ;
+}
 .footer-icon{
  font-size: 16px;
+ color: #0845AF;
 }
 .footer-desc{
   font-size: 16px;
   font-family: Poppins;
   line-height: 30px;
   font-weight: 400;
+}
+.fotter-logo{
+  width:140px ;
+  height: 55px;
+  margin-bottom: 10px;
 }
 
 .copyright{
@@ -965,7 +997,15 @@ font-size: 50px;
   bottom: 25%;
   right: 0%;
  }
+.vertical-underline{
+  content: "l";
+  border-left: 2px dashed #000;
+  
+  width: 2px;
+  margin-left:75%;
+  height: 100%;
 
+}
 
   .seller-img-before{
   position: absolute;
