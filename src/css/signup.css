@@ -1,5 +1,16 @@
 
+.login-section{
+    background-image: url("/src/img/about-img/login-banner.png");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
+}
 
 .check-form-lebel{
    color: #999999;
@@ -16,6 +27,15 @@
     margin: 0px;
     padding:0px;
     margin-right: 10px;
+
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+  .signup-section{
+  height:inherit;
+}
 
 }
 

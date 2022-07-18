@@ -306,17 +306,15 @@ header section
   font-weight: 600;
   margin-bottom: 120px;
 }
-.cretive-box {
-  background-color: #fff;
-  margin: auto;
-  text-align: center;
-  padding: 29px 32px;
-  border-radius: 31px;
-  position: relative;
-  margin-right: 70px;
-  position: relative;
+
+.cretive-people-section .card{
+  background-color: rgba(255, 0, 0, 0)!important;
+  border:none;
+  border-radius: 25px !important;
+
 }
-.cretive-box h2 {
+
+.cretive-info h2 {
   font-size: 28px;
   line-height: 42px;
   font-family: Poppins;
@@ -325,36 +323,47 @@ header section
   font-weight: 600;
   line-height: 100%;
   margin-bottom: 13px;
-  margin-top: 140px;
 }
-.cretive-box img {
-  position: absolute;
-  top: -110px;
-  left: 115px;
-  width: 220px;
+.cretive-box-three h2 {
+  color: #fff !important;
+
+}
+.cretive-people-section img {
+ padding: 10px;
+ /* max-height: 400px; */
 }
 
-.cretive-box p {
+.cretive-info p {
   font-size: 18px;
   font-family: Urbanist;
   line-height: 26px;
   line-height: 120%;
   letter-spacing: 0.5px;
+  padding: 15px;
 }
 .cretive-box-three {
-  background-color: #f36523;
+  background-color: #f36523 !important;
   color: #fff;
+  margin-right: 1px;
 }
-.cretive-box-three h2 {
-  color: #fff !important;
-  z-index: 2;
+.cretive-box-desc {
+ background-color: #fff ;
+ margin-top: -20px;
+ padding-top: 200px;
+ position: relative;
+ border-radius: 0px 0px 45px 45px;
+
+
+}
+
+.cretive-info{
+  margin-bottom: 200px !important;
+  position: absolute;
+  top: 0px;
+  text-align: center;
 }
 .cretive-box-three img {
-  width: 300px !important;
-  position: absolute;
-  top: -116px;
-  left: 60px;
-  z-index: 1;
+  
 }
 
 /* service section  */
@@ -433,7 +442,7 @@ header section
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 672px;
+  height:max-content;
   padding-top: 83px;
 }
 .freelance-section-top {
@@ -665,10 +674,71 @@ header section
 .footer-bottom-link a:hover{
   color: #fff;
 }
+
+
+
+
+/* ===============================================================================================================================Responsive css for laptop
+============================================================================================================================= */
+
+@media only screen and (max-width: 1440px) {
+  .section-title {
+    font-size: 44px;
+    font-family: Poppins;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+
+
+  /* header section  */
+
+
+  .header-nav {
+  margin: 0px 10px;
+}
+
+.heru-section {
+  background-image: url("/src/img/home-img/top-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1280px;
+  margin-top: -105px;
+}
+  .heru-section{
+  padding-left: 0px ;
+}
+.heru-section-info-collum-one {
+    margin-left: 10px;
+}
+
+
+.hire-freelancer {
+  margin-left: 10px;
+
+}
+.col-md-12.col-12.col-lg-6.hire-title {
+    z-index: 1;
+}
+.cretive-people-section {
+    padding: 136px 10px 0px 70px;
+    background-color: #e5e5e5;
+    margin: auto;
+}
+
+
+
+}
+
+
+
 /* ===============================================================================================================================Responsive css for tab 
 ============================================================================================================================= */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 992px) {
   .section-title {
     font-size: 44px;
     font-family: Poppins;
