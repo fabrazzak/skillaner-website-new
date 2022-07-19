@@ -278,6 +278,7 @@ header section
   position: relative;
   margin-top: 35px;
   margin-bottom: 35px;
+  z-index: 1;
 }
 .hire-freelancer::after {
   position: absolute;
@@ -286,6 +287,7 @@ header section
   right: 0;
   top: -35px;
   height: 300px !important;
+  z-index: -1;
 }
 .hire-collum-one {
   max-height: 182px;
@@ -332,6 +334,7 @@ header section
   line-height: 58px;
   color: #1c1c1c;
   margin-left: 80px;
+  z-index: 1;
 }
 
 /* cretive-people-section */
