@@ -149,6 +149,53 @@ header section
   font-weight: 400;
   margin-bottom: 46px;
 }
+
+
+.faq-button {
+  background-color: #f36523;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Urbanist;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 65px;
+  padding: 25px 72px;
+  border: none;
+}
+.home-input-search{
+   background-color: #F7F7F7!important; 
+   border: transparent !important;
+}
+.home-input-search::placeholder{
+    font-size: 20px;
+    font-family: Inter;
+    color: #B0B7C3;
+    line-height: 30px;
+    padding-left: 30px;
+   
+}
+.home-search-button{
+ background-color: #f36523;
+ border-top-right-radius: 3.14px;
+ border-bottom-right-radius: 3.14px;
+ font-size: 15.69px;
+ line-height: 22px;
+ font-weight: 600;
+ color: #fff;
+ padding: 15px 67px;
+ border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 .heru-buttons {
   margin-bottom: 52px;
 }
