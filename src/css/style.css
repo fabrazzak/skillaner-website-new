@@ -123,7 +123,7 @@ header section
   margin-top: -105px;
 }
 .heru-section-info-collum-one {
-  margin-left: 170px;
+  margin-left: 8%;
 }
 .heru-section-info {
   padding-top: 300px;
@@ -227,7 +227,7 @@ header section
 /* hire-freelancer section  */
 
 .hire-freelancer {
-  margin-left: 170px;
+  margin-left: 8%;
   position: relative;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -382,7 +382,7 @@ header section
   background-position: center;
   background-size: cover;
   height: 559px;
-  margin-right: 35px;
+  margin-right:5%;
   border-radius: 21px !important;
 }
 
@@ -392,8 +392,8 @@ header section
   background-position: center;
   background-size: cover;
   height: 559px;
-  margin-right: 35px;
-  margin-left: 35px;
+  margin-right: 5%;
+  margin-left: 5%;
   border-radius: 21px !important;
 }
 .service-three {
@@ -403,7 +403,7 @@ header section
   background-size: cover;
   height: 559px;
   margin-right: 35px;
-  margin-left: 35px;
+  margin-left: 5%;
   border-radius: 21px !important;
 }
 
@@ -415,7 +415,7 @@ header section
   height: 559px;
   border-radius: 21px !important;
   margin-right: 0;
-  margin-left: 50;
+  margin-left: 5%;
   padding-right: 0;
 }
 .service-button {
@@ -478,13 +478,13 @@ header section
   padding-top: 100px;
 }
 .project-section {
-  padding-left: 87px;
+  padding-left: 5%;
 }
 .project-box {
-  margin-left: 50px;
+  margin-left: 8%;
 }
 .project-box-four {
-  margin-left: 50px;
+  margin-left:  8%;
 }
 .project-box > img {
   height: 407px;

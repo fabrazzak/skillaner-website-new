@@ -1,146 +1,144 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Urbanist', sans-serif; */
 
+/* ====================================================
+                       1 Common css
+======================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  font-size: 10px;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 400 !important;
+  text-rendering: optimizeLegibility;
+  color: #a6a6a6;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins;
+  font-weight: 700;
+  color: #000;
+}
+.highlight {
+  color: #f36523;
+}
+
+.section-title {
+  font-size: 64px;
+  font-family: Poppins;
+  line-height: 80px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 70px;
+  text-transform: capitalize;
+}
+
+/* ============================================
+                    index.html css start
+================================================ */
+.header-nav {
+  margin: 0px 70px;
+}
+.search-icon {
+  color: #f36523;
+  font-size: 13px;
+}
+.search-button-group {
+  border: 1px solid #f36523;
+
+  max-width: 372px !important;
+}
+.search-button-group input::placeholder {
+  font-size: 12px;
+  color: #999999;
+  font-family: Open Sans;
+}
+.search-button-group input {
+  padding: 8px 85px 8px 8px;
+  border: none;
+}
+.search-button {
+  background-color: #f36523 !important;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  font-family: Urbanist;
+  padding: 5px 15px;
+  border: none;
+}
+.nav-link {
+  font-size: 18px ;
+  font-family: Urbanist;
+  line-height: 26px;
+  font-weight: 600;
+  color: #1c1c1c !important;
+
+  margin-right:50px;
+}
+.nav-item-white {
+  color: #fff !important;
+}
+
+.signUp-button {
+  background-color: #f36523;
+  color: white !important;
+  font-family: Urbanist;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 19px 76px !important;
+  border-radius: 45px;
+  text-decoration: none;
+  max-width: 182px;
+}
 
 /* ==========================================
 header section 
 =================================================*/
 
-.works-banner-section{
-  background-image: url("/src/img/how-it-work-img/how-to-work\ .png");
+.faq-banner-section{
+  background-image: url("/src/img/faq-img/faq-banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 1280px;
-  margin-top: -130px;
+  margin-top: -105px;
 }
-.works-section-info-collum-one {
+.faq-section-info-collum-one {
   margin-left: 8%;
 }
-.works-section-info {
+.faq-section-info {
   padding-top: 300px;
 }
-.works-section-info>h4 {
-  color: #999999;
+.faq-section-info>h4 {
+  color: #EEEEEE;
   font-family: Open Sans;
   font-size: 18px;
   line-height: 30px;
  letter-spacing: 35%;
- line-height: 122%; 
-}
- .works-title {
-  color: #0A0F26;
-  font-family: Poppins;
-  font-size: 70px;
-  line-height: 78px;
-  letter-spacing: 5.5px;
-  padding-bottom: 40px;
-  position: relative;
-}
-
-.works-desc  {
-  font-family: Open Sans;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  margin-bottom: 46px;
-  color:#999999;
-  margin-right: 250px;
-}
-
-.works-button {
-  background-color: #f36523;
-  font-size: 16px;
-  line-height: 26px;
-  font-family: Urbanist;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 65px;
-  padding: 25px 72px;
-  border: none;
-}
-
-
-
-
-/* buyer-section  */
-/* buyer-section  */
-/* buyer-section  */
-/* buyer-section  */
-
-.buyer-section{
-    background-color: #e5e5e5;
-    padding-top: 104px   ;
-    padding-right: 70px ;
-    padding-left: 8%;
-}
-.buyer-section-overlay{
-    padding-bottom: 15px;
-    border-bottom: 5px solid rgba(217, 217, 217, 0.5);
-    position: relative;
-}
-.buyer-section-overlay::before{
-    content: url("/src/img/home-img/heru-botom-shape.png");
-    position: absolute;
-   right: 13%;
-    bottom: 33px;
-    display: flex;
-}
-.buyer-text {
-    margin-right: 90px;
-    font-size: 28px;
-    font-family: Urbanist;
-    letter-spacing: 0.5px;
-    line-height: 38px;
-    color: #000;
-    position: relative;
-}
-.buyer-text::after{
-    content: "";
-    position: absolute;
-    border: 5px solid #f36523;
-    width: 96px;
-    bottom: -25px;
-    display: flex;
-
-}
-.freelancer-text {
-
-    font-size: 28px;
-    font-family: Urbanist;
-    letter-spacing: 0.5px;
-    line-height: 38px;
-    color: #999;
-}
-
-
-
-
-
-
-/* post section  */
-/* post section  */
-/* post section  */
-/* post section  */
-
-.post-section{
-    background-color: #E5E5E5;
-  
-      padding-top: 104px   ;
-    padding-right: 70px ;
-    padding-left: 8%;
-}
-
-
-
-.post-section-info>h4 {
-   color: #999999;
-  font-family: Open Sans;
-  font-size: 18px;
-  line-height: 30px;
- letter-spacing: 5px;
  line-height: 122%;
 }
- .post-title {
-  color: #0A0F26;
+.faq-title {
+  color: #fff;
   font-family: Poppins;
   font-size: 70px;
   line-height: 78px;
@@ -149,17 +147,16 @@ header section
   position: relative;
 }
 
-.post-desc  {
+.faq-desc   {
   font-family: Open Sans;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 46px;
-  color:#999999;
-  margin-right: 50px;
+  color:#EEEEEE;
 }
 
-.post-button {
+.faq-button {
   background-color: #f36523;
   font-size: 16px;
   line-height: 26px;
@@ -170,7 +167,222 @@ header section
   padding: 25px 72px;
   border: none;
 }
+.faq-input-search{
+   background-color: rgba(0, 0, 0, 0.2)!important; 
+   border: transparent !important;
+}
+.faq-input-search::placeholder{
+    font-size: 20px;
+    font-family: Inter;
+    color: #B0B7C3;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.faq-search-button{
+ background-color: #f36523;
+ border-top-right-radius: 3.14px;
+ border-bottom-right-radius: 3.14px;
+ font-size: 15.69px;
+ line-height: 22px;
+ font-weight: 600;
+ color: #fff;
+ padding: 15px 67px;
+}
 
+
+
+
+/* making section  */
+/* making section  */
+/* making section  */
+/* making section  */
+.general-section{
+  background-color: #E5E5E5 ;
+  padding:155px 137px 0 137px;
+  position: relative;
+
+}
+.general-section::before{
+  content: url("/src/img/about-img/making-top.png");
+  position: absolute;
+  top: 0;
+  left: 20%;
+
+}
+
+.general-title-overlay{
+    border-bottom: 5px solid rgba(217, 217, 217, 0.5);
+    display: flex;
+    padding-bottom: 27px;
+}
+.general-title-overlay h1{
+    margin-right: 10%;
+    color: #999999;
+    font-family: Urbanist;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+
+}
+.general-General-title{
+    color: #000 !important;
+    position: relative;
+}
+.general-General-title::after{
+    content: "";
+    position: absolute;
+    width: 250px;
+    border-bottom: 5px solid #f36523;
+    display: flex;
+    bottom: -35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.making-title{
+ font-family: Poppins;
+ font-size: 64px;
+ line-height: 80px;
+ letter-spacing: 0.5px;
+ color: #000;
+ margin-top: 50px;
+}
+.making-info p{
+  font-family: Open sans;
+  font-size: 16px;
+  line-height: 26px ;
+  color: #0A0F26 ;
+  margin-bottom: 45px;
+}
+.making-btn-one{
+  background-color: #f36523;
+  padding: 25px;
+  color: #fff ;
+  font-size: 16px;
+  font-family: Urbanist;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  border:1px solid #f36523;
+  border-radius: 65px;
+  margin-right: 24px;
+}
+.making-btn-two{
+  background-color: #fff;
+  padding: 25px;
+  color: #0A0F26;
+  font-family: Urbanist;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  border: 1px solid #f36523;
+  border-radius: 65px;
+}
+
+
+
+
+
+/* review section  */
+/* review section  */
+/* review section  */
+/* review section  */
+/* review section  */
+
+.review-section{
+  padding:100px 66px 0px 309px ;
+  background-color: #E5E5E5;
+}
+.review-section .card{
+border: none;
+  background-color: #E5E5E5;
+}
+.rating-title{
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #162534;
+  margin-bottom: 45px;
+}
+.rating-desc{
+  font-size:Inter ;
+  font-family: Inter;
+  line-height: 18px;
+  font-weight: 600;
+  color: #f36523;
+  margin-top: 18px;
+}
+.buyer-name{
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+color: #162534;
+margin-top: 17px;
+
+}
+.buyer-review{
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 22px;
+color: #999999;
+margin-top: 14px;
+}
+
+
+
+
+
+/* freelance-section */
+/* freelance-section */
+/* freelance-section */
+/* freelance-section */
+.freelancer-main {
+  padding: 83px 138px;
+  background-image: url("/src/img/home-img/freelancer-section.jfif.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 672px;
+  padding-top: 83px;
+}
+.freelance-section-top {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #e5e5e5;
+}
+.freelancer-main h5 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #000;
+  line-height: 113%;
+  letter-spacing: 0.5px;
+  font-family: Urbanist;
+}
+.freelancer-main p {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #1c1c1c;
+  line-height: 114%;
+  letter-spacing: 0.5px;
+  font-family: Urbanist;
+  margin-top: 6px;
+}
 
 
 /* talent section  */
@@ -184,8 +396,8 @@ header section
    background-color: #e5e5e5;
 }
 
- .talent-section-three .talent-main {
-  background-image: url("/src/img/how-it-work-img/find-expert.png");
+ .talent-section-two .talent-main {
+  background-image: url("/src/img/about-img/freelancer-talent-2.png");
 
 }
 
@@ -199,7 +411,62 @@ header section
  }
 
 
-px;
+
+
+/* footer-section */
+/* footer-section */
+/* footer-section */
+/* footer-section */
+/* footer-section */
+.footer-section {
+  padding: 80px 0px 20px 0px;
+  background-color: #190e50;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-collum-one p {
+  font-size: Open Sans;
+  font-size: 15px;
+  line-height: 24px;
+  line-height: 117%;
+  margin-top: 39px;
+}
+.footer-collum-one h5 {
+  font-size: Urbanist;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  line-height: 120%;
+  margin-top: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-socail-icon {
+  color: #fff;
+}
+.footer-collum-two h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  font-family: Urbanist;
+  margin-bottom: 20px;
+}
+.footer-collum-two ul li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Open Sans;
+
+  margin-bottom: 8px;
+  list-style: none;
+  margin-left: -20px;
+}
+.footer-collum-four h5 {
+  color: #fff;
+  font-size: 18px;
   font-weight: 600;
   line-height: 26px;
   font-family: Urbanist;
@@ -232,8 +499,22 @@ px;
 .footer-bottom-link {
   display: flex;
   justify-content: center;
-}
   
+}
+.footer-bottom-link a {
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: Urbanist;
+  padding-top: 18px;
+  color: #fff;
+  margin-left: 40px;
+  text-decoration: none;
+}
+.footer-bottom-link a:hover{
+  color: #fff;
+}
 /* ===============================================================================================================================Responsive css for laptop 
 ============================================================================================================================= */
 
@@ -242,38 +523,17 @@ px;
   /* abour section         */
 
 
-  .works-section-info-collum-one
+  .faq-section-info-collum-one
    {  margin-left: 70px;
   }
-  .works-desc  {
-  margin-right: 50px;
-}
 
-
-/* buyer sextion   */ 
-/* buyer sextion   */ 
-/* buyer sextion   */ 
-
-.buyer-section {
-    background-color: #e5e5e5;
-    padding: 104px 35px 0px 70px;
-}
-
-/* post section  */
-/* post section  */
-/* post section  */
-
-.post-section{
-    background-color: #E5E5E5;
-     padding: 104px 35px 0px 70px ;
-}
 
 
 
 
   /* making section  */
   /* making section  */
-  .making-section{
+  .general-section{
   background-color: #E5E5E5 ;
   padding:155px 70px 0 70px;
   position: relative;
@@ -355,23 +615,23 @@ px;
   /* heru section  */
   /* heru section  */
   /* heru section  */
-  .works-banner-section {
+  .faq-banner-section {
     background-image: none;
-    background-color: #e5e5e5;
+    background-color: #0a0f26;
     height: 600px;
     margin-top: 0px;
     padding: 10px;
   }
-  .works-section-info-collum-one {
+  .faq-section-info-collum-one {
   margin-left: 0px;
 }
   
 
-  .works-section-info {
-    padding-top: 100px;
+  .faq-section-info {
+    padding-top: 30px;
     text-align: left;
   }
-  .works-title {
+  .faq-title {
     font-family: Poppins;
     font-size: 40px;
     line-height: 48px;
@@ -379,52 +639,6 @@ px;
     padding-bottom: 40px;
     text-align: left;
   }
-
-  .works-desc  {
-  margin-right: 50px;
-}
-
-
-
-
-/* buyer section  */
-
-.buyer-section-overlay::before {
-  content: "";
-}
-
-
-
-/* post section  */
-/* post section  */
-/* post section  */
-.post-button {
-    padding: 15px 36px;
-   
-}
-.post-desc {
-    font-family: Open Sans;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    margin-bottom: 46px;
-    color: #999999;
-    padding:10px;
-    margin-right: 0px;
-}
-.post-title{
-    font-size: 50px;
-    letter-spacing: 1;
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -529,61 +743,25 @@ px;
   /* heru section  */
   /* heru section  */
   /* heru section  */
-  .works-banner-section {
+  .faq-banner-section {
     height:max-content !important;
   }
 
 
-  .works-button {
+  .faq-button {
     margin-bottom: 42px;
     margin: auto;
     text-align: center;
   }
 
 
-
-
-/* buyer sextion   */ 
-/* buyer sextion   */ 
-/* buyer sextion   */ 
-
-.buyer-section {
-    background-color: #e5e5e5;
-    padding: 55px 10px 0px 10px;
-    
-}
-.buyer-section-overlay::before {
-  content: "";
-}
-
-/* post section  */
-/* post section  */
-/* post section  */
-
-.post-section{
-    background-color: #E5E5E5;
-     padding: 55px 10px 0px 10px ;
-}
-.post-title{
-    font-size: 40px;
-    letter-spacing: 1;
-}
-
-
-
-
-
-
-
-
-
 /* making section            */
 /* making section            */
 /* making section            */
 /* making section            */
 
 
-.making-section {
+.general-section {
     background-color: #E5E5E5;
     padding: 155px 0px 0px 0px;
     position: relative;

@@ -61,31 +61,31 @@ header section
 
 
 
-/* buyer-section  */
-/* buyer-section  */
-/* buyer-section  */
-/* buyer-section  */
+/* freelancer-section  */
+/* freelancer-section  */
+/* freelancer-section  */
+/* freelancer-section  */
 
-.buyer-section{
+.freelancer-section{
     background-color: #e5e5e5;
     padding-top: 104px   ;
     padding-right: 70px ;
     padding-left: 8%;
 }
-.buyer-section-overlay{
+.freelancer-section-overlay{
     padding-bottom: 15px;
     border-bottom: 5px solid rgba(217, 217, 217, 0.5);
     position: relative;
 }
-.buyer-section-overlay::before{
+.freelancer-section-overlay::before{
     content: url("/src/img/home-img/heru-botom-shape.png");
     position: absolute;
    right: 13%;
     bottom: 33px;
     display: flex;
 }
-.buyer-text {
-    margin-right: 90px;
+.freelancer-text-two{
+    margin-left: 90px;
     font-size: 28px;
     font-family: Urbanist;
     letter-spacing: 0.5px;
@@ -93,16 +93,16 @@ header section
     color: #000;
     position: relative;
 }
-.buyer-text::after{
+.freelancer-text-two::after{
     content: "";
     position: absolute;
     border: 5px solid #f36523;
-    width: 96px;
+    width: 150px;
     bottom: -25px;
     display: flex;
 
 }
-.freelancer-text {
+.buyer-text-two {
 
     font-size: 28px;
     font-family: Urbanist;
@@ -184,8 +184,8 @@ header section
    background-color: #e5e5e5;
 }
 
- .talent-section-three .talent-main {
-  background-image: url("/src/img/how-it-work-img/find-expert.png");
+ .talent-section-four .talent-main {
+  background-image: url("/src/img/freelancer-img/Screenshot_7.png");
 
 }
 
@@ -254,7 +254,7 @@ px;
 /* buyer sextion   */ 
 /* buyer sextion   */ 
 
-.buyer-section {
+.freelancer-section {
     background-color: #e5e5e5;
     padding: 104px 35px 0px 70px;
 }
@@ -389,7 +389,7 @@ px;
 
 /* buyer section  */
 
-.buyer-section-overlay::before {
+.freelancer-section-overlay::before {
   content: "";
 }
 
@@ -547,12 +547,12 @@ px;
 /* buyer sextion   */ 
 /* buyer sextion   */ 
 
-.buyer-section {
+.freelancer-section {
     background-color: #e5e5e5;
     padding: 55px 10px 0px 10px;
     
 }
-.buyer-section-overlay::before {
+.freelancer-section-overlay::before {
   content: "";
 }
 
