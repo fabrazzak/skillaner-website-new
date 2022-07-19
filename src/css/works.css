@@ -1,144 +1,33 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Urbanist', sans-serif; */
 
-/* ====================================================
-                       1 Common css
-======================================================== */
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  background-color: #fff;
-  font-size: 10px;
-  font-family: "Inter", sans-serif !important;
-  font-weight: 400 !important;
-  text-rendering: optimizeLegibility;
-  color: #a6a6a6;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Poppins;
-  font-weight: 700;
-  color: #000;
-}
-.highlight {
-  color: #f36523;
-}
-
-.section-title {
-  font-size: 64px;
-  font-family: Poppins;
-  line-height: 80px;
-  letter-spacing: 0.5px;
-  text-align: center;
-  margin-bottom: 70px;
-  text-transform: capitalize;
-}
-
-/* ============================================
-                    index.html css start
-================================================ */
-.header-nav {
-  margin: 0px 70px;
-}
-.search-icon {
-  color: #f36523;
-  font-size: 13px;
-}
-.search-button-group {
-  border: 1px solid #f36523;
-
-  max-width: 372px !important;
-}
-.search-button-group input::placeholder {
-  font-size: 12px;
-  color: #999999;
-  font-family: Open Sans;
-}
-.search-button-group input {
-  padding: 8px 85px 8px 8px;
-  border: none;
-}
-.search-button {
-  background-color: #f36523 !important;
-  color: #fff !important;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 26px;
-  font-family: Urbanist;
-  padding: 5px 15px;
-  border: none;
-}
-.nav-link {
-  font-size: 18px ;
-  font-family: Urbanist;
-  line-height: 26px;
-  font-weight: 600;
-  color: #1c1c1c !important;
-
-  margin-right:50px;
-}
-.nav-item-white {
-  color: #fff !important;
-}
-
-.signUp-button {
-  background-color: #f36523;
-  color: white !important;
-  font-family: Urbanist;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 19px 76px !important;
-  border-radius: 45px;
-  text-decoration: none;
-  max-width: 182px;
-}
 
 /* ==========================================
 header section 
 =================================================*/
 
-.about-banner-section{
-  background-image: url("/src/img/about-img/about-banner.png");
+.works-banner-section{
+  background-image: url("/src/img/how-it-work-img/how-to-work\ .png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 1280px;
-  margin-top: -105px;
+  margin-top: -130px;
 }
-.about-section-info-collum-one {
+.works-section-info-collum-one {
   margin-left: 170px;
 }
-.about-section-info {
+.works-section-info {
   padding-top: 300px;
 }
-.about-section-info>h4 {
-  color: #EEEEEE;
+.works-section-info>h4 {
+  color: #999999;
   font-family: Open Sans;
   font-size: 18px;
   line-height: 30px;
  letter-spacing: 35%;
- line-height: 122%;
+ line-height: 122%; 
 }
-.about-title {
-  color: #fff;
+ .works-title {
+  color: #0A0F26;
   font-family: Poppins;
   font-size: 70px;
   line-height: 78px;
@@ -147,16 +36,17 @@ header section
   position: relative;
 }
 
-.about-desc {
+.works-desc  {
   font-family: Open Sans;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 46px;
-  color:#EEEEEE;
+  color:#999999;
+  margin-right: 250px;
 }
 
-.about-button {
+.works-button {
   background-color: #f36523;
   font-size: 16px;
   line-height: 26px;
@@ -168,6 +58,113 @@ header section
   border: none;
 }
 
+
+
+
+/* buyer-section  */
+/* buyer-section  */
+/* buyer-section  */
+/* buyer-section  */
+
+.buyer-section{
+    background-color: #e5e5e5;
+    padding: 104px 70px 0px 186px  ;
+}
+.buyer-section-overlay{
+    padding-bottom: 15px;
+    border-bottom: 5px solid rgba(217, 217, 217, 0.5);
+    position: relative;
+}
+.buyer-section-overlay::before{
+    content: url("/src/img/home-img/heru-botom-shape.png");
+    position: absolute;
+   right: 13%;
+    bottom: 33px;
+    display: flex;
+}
+.buyer-text {
+    margin-right: 90px;
+    font-size: 28px;
+    font-family: Urbanist;
+    letter-spacing: 0.5px;
+    line-height: 38px;
+    color: #000;
+    position: relative;
+}
+.buyer-text::after{
+    content: "";
+    position: absolute;
+    border: 5px solid #f36523;
+    width: 96px;
+    bottom: -25px;
+    display: flex;
+
+}
+.freelancer-text {
+
+    font-size: 28px;
+    font-family: Urbanist;
+    letter-spacing: 0.5px;
+    line-height: 38px;
+    color: #999;
+}
+
+
+
+
+
+
+/* post section  */
+/* post section  */
+/* post section  */
+/* post section  */
+
+.post-section{
+    background-color: #E5E5E5;
+     padding: 104px 70px 0px 186px ;
+}
+
+
+
+.post-section-info>h4 {
+   color: #999999;
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 30px;
+ letter-spacing: 5px;
+ line-height: 122%;
+}
+ .post-title {
+  color: #0A0F26;
+  font-family: Poppins;
+  font-size: 70px;
+  line-height: 78px;
+  letter-spacing: 5.5px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.post-desc  {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 46px;
+  color:#999999;
+  margin-right: 50px;
+}
+
+.post-button {
+  background-color: #f36523;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Urbanist;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 65px;
+  padding: 25px 72px;
+  border: none;
+}
 
 
 
@@ -336,8 +333,8 @@ margin-top: 14px;
    background-color: #e5e5e5;
 }
 
- .talent-section-two .talent-main {
-  background-image: url("/src/img/about-img/freelancer-talent-2.png");
+ .talent-section-three .talent-main {
+  background-image: url("/src/img/how-it-work-img/find-expert.png");
 
 }
 
@@ -463,10 +460,31 @@ margin-top: 14px;
   /* abour section         */
 
 
-  .about-section-info-collum-one
+  .works-section-info-collum-one
    {  margin-left: 70px;
   }
+  .works-desc  {
+  margin-right: 50px;
+}
 
+
+/* buyer sextion   */ 
+/* buyer sextion   */ 
+/* buyer sextion   */ 
+
+.buyer-section {
+    background-color: #e5e5e5;
+    padding: 104px 35px 0px 70px;
+}
+
+/* post section  */
+/* post section  */
+/* post section  */
+
+.post-section{
+    background-color: #E5E5E5;
+     padding: 104px 35px 0px 70px ;
+}
 
 
 
@@ -555,23 +573,23 @@ margin-top: 14px;
   /* heru section  */
   /* heru section  */
   /* heru section  */
-  .about-banner-section {
+  .works-banner-section {
     background-image: none;
-    background-color: #0a0f26;
+    background-color: #e5e5e5;
     height: 600px;
     margin-top: 0px;
     padding: 10px;
   }
-  .about-section-info-collum-one {
+  .works-section-info-collum-one {
   margin-left: 0px;
 }
   
 
-  .about-section-info {
-    padding-top: 30px;
+  .works-section-info {
+    padding-top: 100px;
     text-align: left;
   }
-  .about-title {
+  .works-title {
     font-family: Poppins;
     font-size: 40px;
     line-height: 48px;
@@ -579,6 +597,52 @@ margin-top: 14px;
     padding-bottom: 40px;
     text-align: left;
   }
+
+  .works-desc  {
+  margin-right: 50px;
+}
+
+
+
+
+/* buyer section  */
+
+.buyer-section-overlay::before {
+  content: "";
+}
+
+
+
+/* post section  */
+/* post section  */
+/* post section  */
+.post-button {
+    padding: 15px 36px;
+   
+}
+.post-desc {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 46px;
+    color: #999999;
+    padding:10px;
+    margin-right: 0px;
+}
+.post-title{
+    font-size: 50px;
+    letter-spacing: 1;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -683,16 +747,52 @@ margin-top: 14px;
   /* heru section  */
   /* heru section  */
   /* heru section  */
-  .about-banner-section {
+  .works-banner-section {
     height:max-content !important;
   }
 
 
-  .about-button {
+  .works-button {
     margin-bottom: 42px;
     margin: auto;
     text-align: center;
   }
+
+
+
+
+/* buyer sextion   */ 
+/* buyer sextion   */ 
+/* buyer sextion   */ 
+
+.buyer-section {
+    background-color: #e5e5e5;
+    padding: 55px 10px 0px 10px;
+    
+}
+.buyer-section-overlay::before {
+  content: "";
+}
+
+/* post section  */
+/* post section  */
+/* post section  */
+
+.post-section{
+    background-color: #E5E5E5;
+     padding: 55px 10px 0px 10px ;
+}
+.post-title{
+    font-size: 40px;
+    letter-spacing: 1;
+}
+
+
+
+
+
+
+
 
 
 /* making section            */
