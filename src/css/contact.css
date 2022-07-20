@@ -149,275 +149,57 @@ header section
   padding-right: 10%;
 }
 
-
-
-
-/* support section  */
-/* support section  */
-/* support section  */
-/* support section  */
-
-.support-section{
-  background-color: #e5e5e5;
-  padding-left: 10%;
+/* hear form section  */
+/* hear form section  */
+/* hear form section  */
+/* hear form section  */
+/* hear form section  */
+/* hear form section  */
+.hear-form{
+    background-color: #E5E5E5;
+    padding-left: 9%;
+    padding-right: 4%;
+    padding-top: 5%;
 }
-.support-laptop-img{
-  border:  3px solid rgba(177, 174, 174, 0.139);
-  border-radius: 25px;
-  margin-top: 42px;
-}
-.support-collum-two{
-  padding-left: 3% !important;
-}
-.support-title{
-  font-size: 20px;
-  font-family: Inter;
-  line-height: 26px;
-  line-height: 107%;
-  color: #0A0F26;
-  margin-top: 60px;
-  margin-bottom: 18px;
-}
-.support-small-div{
- display: flex;
-
- align-items: center;
-}
-.support-small-div p{
-font-size: 16px;
-font-family: Inter;
-line-height:19px;
- ;
-}
-.support-small-img{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin: 20px;
-
-}
-.support-desc{
-  color:#64748B;
-  font-size: 16px;
-  font-family: Inter;
-  line-height:19px;
-}
-.support-btn{
-  font-size: 16px;
-  font-family: Inter;
-  line-height: 19px;
-  color: #8F91A5;
-  background-color:rgba(124, 102, 235, 0.1);
-  padding: 20px 35px;
-  border-radius: 104px;
-  border: none;
-  margin-top: 3%;
+.hear-form .card-img{
+    border-radius: 25px !important;
 }
 
-
-
-/* all-blog-section  */
-/* all-blog-section  */
-/* all-blog-section  */
-/* all-blog-section  */
-
-
-.all-blog-section{
-  background-color: #E5E5E5;
-     
-}
-.all-blog{
-  background-color: #e5e5e5 ;
-  padding:2% 2% 3% 9%;
-  
-
-}
-.single-blog-title-top{
-  font-size: 20px;
-  font-family: Poppins;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-  color: #64748B;
-}
-.single-blog-title{
-  font-size: 28px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  color:#0A0F26;
-  font-family: Urbanist;
-  line-height: 38px;
-  line-height: 113%;
-  padding: 10px 0px;
-  
-}
-.single-blog-date{
-    font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  color:#64748B;
-  font-family: Urbanist;
-  line-height: 26px;
-  line-height: 120%;
-
-  
-}
-.all-blog img{
-  height: 451px;
-  border-radius: 5px;
-  border: 2px solid #D9D9D9;
-  
-}
-
-
-
-
-
-
-
-
-.general-section{
-  background-color: #e5e5e5 ;
-  padding:5% 7% 3% 9%;
-  position: relative;
-
-}
-.general-section::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 20%;
-
-}
-
-.general-title-overlay{
-    border-bottom: 5px solid rgba(217, 217, 217, 0.5);
-    display: flex;
-    padding-bottom: 27px;
-}
-.general-title-overlay h1{
-    margin-right: 10%;
-    color: #999999;
-    font-family: Urbanist;
-    font-size: 28px;
-    line-height: 38px;
-    letter-spacing: 0.5px;
-
-}
-.general-General-title{
-    color: #000 !important;
+.form-card{
     position: relative;
+    border: none !important;
+    background-color: #fff
+    ;
+    border-radius: 25px !important;
 }
-.general-General-title::after{
-    content: "";
+.card-img-overlay{
     position: absolute;
-    width: 100%;
-    border-bottom: 5px solid #f36523;
-    display: flex;
-    bottom: -35px;
-
+    top: 40% !important;
+    text-align: center;
+    padding: 0 20%!important;
 }
-.general-desc-title-top{
 
-
-    margin-bottom:41px ;
-    background-color: rgba(243, 101, 35, 0.1);
-    margin-top: 71px;
-    padding-top: 36px ;
-    padding-bottom: 25px;
-    padding-right: 6%;
-}
-.general-desc-title-top-info{
-  
-    border-left: 2px solid #f36523;
-    padding-left:5% ;
-    margin-left: 5%;
-  
-}
-.general-desc-title-top-info h6{
-   font-size: 18px;
+.hear-form .card-title{
+    font-size: 28px;
+    color: #f36523;
     font-family: Poppins;
-    line-height: 26px;
-    letter-spacing: 0.5px;
+    line-height: 42px;
+    ;
+}
+.hear-form .card-text{
+    font-size: 16px;
     color: #0A0F26;
-
-  
-}
-.general-desc-title-top-info p{
-   font-size: 16px;
-    font-family: Poppins;
-    line-height: 26px;
-    letter-spacing: 0.5px;
-    color: #0A0F26;
-
-  
-}
-.general-desc-title h6{
-    font-size: 18px;
-    font-family: Poppins;
-    line-height: 26px;
-    letter-spacing: 0.5px;
-    color: #0A0F26;
-    border-left: 2px solid #B0B7C3;
-    padding-left:5% ;
-    margin-bottom:41px ;
-    margin-left: 5%;
-}
-
-
-
-
-
-/* talent section  */
-/* talent section  */
-/* talent section  */
-/* talent section  */
-/* talent section  */
-
-.marketplace-section-two {
-  padding-top: 0px !important;
-
-}
-
-.marketplace-section-two .talent-main {
-  background-image: url("/src/img/Blog-img/bottom.png");
-
-}
-
-.question-collum-one p {
-    font-size: 22px;
     font-family: Urbanist;
-    line-height: 30px;
-    line-height: 122%;
+    line-height: 26px;
     letter-spacing: 0.5px;
-    font-weight: 400;
-    color: #EEEEEE;
-    margin-top: 34px;
-}
-.question-collum-one h2{
-  color: #fff;
 
-}
-.marketplace-button button{
-  background-color: #fff;
-  color: #f36523;
-  border: none;
-  padding:20px 24px ;
-  border-radius: 65px;
-  font-size: 16px;
-  font-family: Urbanist;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0.5px;
-  min-width: 281px;
-  margin-right: 5%;
-  margin-top: 8%;
-
+    ;
 }
 
-
-
-
-
+/* support section  */
+/* support section  */
+/* support section  */
+/* support section  */
 
 
 /* ===============================================================================================================================Responsive css for laptop 
@@ -636,13 +418,5 @@ line-height:19px;
     padding: 155px 0px 0px 0px;
     position: relative;
 }
-
-
-
-
-
-
-
-  
 
 }
