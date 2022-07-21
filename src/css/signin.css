@@ -162,7 +162,7 @@ h6 {
      line-height: 26px;
      font-weight: 600;
 }
-.google-bottom-left{
+.google-bottom-left {
   color: #f36523;
   font-family: Poppins;
   font-size: 16px ;
@@ -171,6 +171,16 @@ h6 {
   letter-spacing: 0.5px;
   margin-top: 30px;  
   margin-bottom: 30px; 
+  
+}
+.google-bottom-left a{
+  color: #f36523;
+
+  
+}
+.google-bottom-left a:hover{
+  color: #f36523;
+  
 }
 .google-bottom-right{
   color: #999999;
@@ -181,6 +191,14 @@ h6 {
   letter-spacing: 0.5px; 
   margin-top: 30px; 
   margin-bottom: 30px; 
+}
+.google-bottom-right a{
+  color: #999999;
+
+}
+.google-bottom-right a:hover{
+  color: #999999;
+
 }
 
 /* ===============================================================================================================================Responsive css for tab 
