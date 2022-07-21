@@ -1021,7 +1021,7 @@ header section
   /* heru section  */
   /* heru section  */
   .heru-section {
-    height: 850px;
+    height: 950px;
   }
 
   .heru-title {
@@ -1102,6 +1102,33 @@ header section
     font-size: 32px;
     line-height: 40px;
   }
+
+
+  .home-input-search{
+   background-color: #F7F7F7!important; 
+   border: transparent !important;
+}
+.home-input-search::placeholder{
+    font-size: 14px;
+    font-family: Inter;
+    color: #B0B7C3;
+    line-height: 30px;
+    padding-left: 30px;
+   
+}
+.home-search-button{
+ background-color: #f36523;
+ border-top-right-radius: 3.14px;
+ border-bottom-right-radius: 3.14px;
+ font-size: 10.69px;
+ line-height: 15px;
+ font-weight: 600;
+ color: #fff;
+ padding: 10px 10px;
+ border: none;
+}
+
+
 
   /* cretive section */
   /* cretive section */
